@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "My first post",
+      "datetime": "July 04, 2025 1:00:53 PM",
+      "body": "This is the body of my first post."
+    },
+    {
+      "id": "2",
+      "title": "Another post",
+      "datetime": "July 04, 2025 2:00:53 PM",
+      "body": "This is the body of another post."
+    },
+    {
+      "id": "21",
+      "title": "Another Test Post",
+      "datetime": "July 04, 2025 3:00:53 PM",
+      "body": "This is another test post"
+    },
+    {
+      "id": "22",
+      "title": "7pm post",
+      "datetime": "July 05, 2025 7:01:50 PM",
+      "body": "another post here!"
+    },
+    {
+      "id": "23",
+      "title": "Waffle Fries",
+      "datetime": "July 05, 2025 7:02:17 PM",
+      "body": "This post is about my love for chick-fil-a waffle fries"
+    },
+    {
+      "id": "24",
+      "title": "4PM POST",
+      "datetime": "July 06, 2025 4:00:52 PM",
+      "body": "I watered my plants today!"
+    }
+  ]
+}
