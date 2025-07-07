@@ -14,8 +14,7 @@ import {useStoreActions} from 'easy-peasy';
 
 function App() {
   const setPosts = useStoreActions((actions) => actions.setPosts);
-   const {data, fetchError, isLoading} = useAxiosFetch('http://localhost:8000/posts');
-
+   const { data, fetchError, isLoading } = useAxiosFetch('https://react-blog-api.onrender.com/posts');
     useEffect(() => {
         setPosts(data);
     }, [data, setPosts])
