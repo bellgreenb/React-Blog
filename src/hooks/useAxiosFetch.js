@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import axios from 'axios';
+import api from '../api/posts';
 
 const useAxiosFetch = (dataUrl) => {
     const [data, setData] = useState([]);
@@ -13,9 +13,9 @@ const useAxiosFetch = (dataUrl) => {
         const fetchData = async (url) => {
             setIsLoading(true);
             try {
-                const response = await axios.get(url, {
-                    cancelToken: source.token
-                });
+                const response = await api.get(url, {
+                cancelToken: source.token
+            });
                 if (isMounted) {
                     setData(Array.isArray(response.data) ? response.data : []);
                     setFetchError(null);
